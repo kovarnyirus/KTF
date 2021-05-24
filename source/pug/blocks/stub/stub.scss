@@ -124,7 +124,7 @@
     }
 
     &__decor-img-wrapper {
-      padding-left: 10%;
+      padding-left: 0;
       position: absolute;
       right: 0;
       top: 0;
@@ -133,15 +133,16 @@
       height: auto;
       //max-width: none;
       margin-bottom: 0;
-      max-width: 850px;
+      max-width: 900px;
       max-height: 100vh;
       overflow: hidden;
 
       img {
         position: absolute;
         max-width: none;
-        width: 100%;
-        height: auto;
+        width: auto;
+        height: 100%;
+        right: 0;
       }
     }
 
@@ -203,7 +204,7 @@
     }
     &__desctop-bg {
       position: absolute;
-      width: 66.4%;
+      width: 75%;
       left: 0;
       top: 0;
       bottom: 2px;
