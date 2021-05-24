@@ -117,6 +117,10 @@
   @include media-breakpoint-up(lg) {
     &__wrapper {
       max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 100vh;
     }
 
     &__decor-img-wrapper {
@@ -144,7 +148,7 @@
     }
 
     &__top {
-      margin-bottom: 113px;
+      margin-bottom: 30px;
     }
     &__slogan {
       font-size: 26px;
@@ -161,7 +165,7 @@
       font-size: 24px;
       line-height: 28px;
       letter-spacing: 0.04em;
-      margin-bottom: 117px;
+      margin-bottom: 30px;
     }
     &__list {
       margin-bottom: 23px;
@@ -174,7 +178,7 @@
       margin-bottom: 16px;
     }
     &__contacts {
-      margin-bottom: 80px;
+      margin-bottom: 30px;
       padding-left: 0;
       &:before{
         left: -19%;
