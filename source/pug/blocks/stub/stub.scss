@@ -131,18 +131,21 @@
       bottom: 0;
       width: 50%;
       height: auto;
-      max-width: none;
+      //max-width: none;
       margin-bottom: 0;
+      max-width: 850px;
+      max-height: 100vh;
+      overflow: hidden;
 
       img {
         position: absolute;
         max-width: none;
-        height: 100%;
-        width: auto;
+        width: 100%;
+        height: auto;
       }
     }
 
-    &__decor{
+    &__decor {
       min-width: 368px;
       margin-left: -40%;
     }
@@ -180,7 +183,8 @@
     &__contacts {
       margin-bottom: 30px;
       padding-left: 0;
-      &:before{
+
+      &:before {
         left: -19%;
       }
     }
@@ -199,7 +203,7 @@
     }
     &__desctop-bg {
       position: absolute;
-      width: 61%;
+      width: 66.4%;
       left: 0;
       top: 0;
       bottom: 2px;
