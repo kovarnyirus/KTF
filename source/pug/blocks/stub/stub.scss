@@ -204,7 +204,8 @@
     }
     &__desctop-bg {
       position: absolute;
-      width: 75%;
+      width: 100%;
+      max-width: calc(100% - 500px);
       left: 0;
       top: 0;
       bottom: 2px;
